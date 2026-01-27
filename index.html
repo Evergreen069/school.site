@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evergreen International School | Therkkupalayam</title>
+    <style>
+        :root { --primary: #004d40; --secondary: #ffc107; --light: #f4fdf4; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; line-height: 1.6; color: #333; background: var(--light); }
+        
+        /* Header & Navigation */
+        header { background: white; padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000; }
+        .logo-text { color: var(--primary); font-weight: bold; font-size: 1.5rem; }
+        
+        /* Hero Section */
+        .hero { background: linear-gradient(rgba(0,77,64,0.8), rgba(0,77,64,0.8)), url('https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&q=80&w=1000'); 
+                height: 60vh; background-size: cover; background-position: center; color: white; 
+                display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 0 20px; }
+        .hero h1 { font-size: 2.8rem; margin-bottom: 10px; }
+        .hero p { font-size: 1.2rem; margin-bottom: 25px; }
+        
+        /* Buttons */
+        .btn { background: var(--secondary); color: #000; padding: 12px 30px; text-decoration: none; border-radius: 50px; font-weight: bold; transition: 0.3s; }
+        .btn:hover { background: #e5ac00; transform: scale(1.05); }
+
+        /* Content Sections */
+        .section { padding: 60px 10%; text-align: center; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-top: 40px; }
+        .card { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-top: 5px solid var(--primary); }
+
+        /* Footer */
+        footer { background: #1a1a1a; color: white; padding: 40px 10%; margin-top: 50px; }
+        .contact-info { display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; text-align: left; }
+        
+        @media (max-width: 768px) { .hero h1 { font-size: 2rem; } }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo-text">Evergreen International</div>
+    <div style="font-weight: bold; color: #004d40;">Call: 9842712666</div>
+</header>
+
+<section class="hero">
+    <h1>Evergreen International School</h1>
+    <p>Nursery & Primary | Therkkupalayam, Pallipalayam</p>
+    <a href="tel:+919842712666" class="btn">Contact Admissions</a>
+</section>
+
+<section class="section">
+    <h2>Welcome to Our School</h2>
+    <p>Providing a foundation for excellence in a nurturing environment at Therkkupalayam.</p>
+    
+    <div class="grid">
+        <div class="card">
+            <h3>CBSE Curriculum</h3>
+            <p>Modern teaching methods focused on foundational literacy and growth.</p>
+        </div>
+        <div class="card">
+            <h3>Transport Facility</h3>
+            <p>Safe and reliable bus transport for students in and around Therkkupalayam.</p>
+        </div>
+        <div class="card">
+            <h3>Holistic Education</h3>
+            <p>Focusing on both academic excellence and character development.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="contact-info">
+        <div>
+            <h4>School Address</h4>
+            <p>Alangadu, Vediyarasampalayam Road,<br>Therkkupalayam, Namakkal - 638006</p>
+        </div>
+        <div>
+            <h4>Phone Numbers</h4>
+            <p>Main: +91 98427 12666<br>Admin: +91 98427 12912</p>
+        </div>
+    </div>
+    <p style="text-align: center; margin-top: 30px; font-size: 0.8rem; color: #888;">
+        &copy; 2026 Evergreen International Nursery & Primary School.
+    </p>
+</footer>
+
+</body>
+</html>
